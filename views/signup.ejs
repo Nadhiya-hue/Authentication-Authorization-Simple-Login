@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheets" href="/stylesheets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="main w-full min-h-screen bg-blue-300 p-5 text-white">
+        <h5 class="text-2xl tracking-tighter mb-2 md-2">Sign In Page</h5>
+        <form action="/default-handler" method="post" class="flex gap-3 flex-wrap py-2">
+            <input class="block px-3 py-2 border-2 border-blue-100 rounded-lg text-black" name="name" type="text" placeholder="Type your name"></input>
+            <input class="block px-3 py-2 border-2 border-blue-100 rounded-lg text-black" name="email" type="text" placeholder="Type your email"></input>
+            <input class="block px-3 py-2 border-2 border-blue-100 rounded-lg text-black" name="age" type="number" placeholder="Type your age"></input>
+            <input class="block px-3 py-2 border-2 border-blue-100 rounded-lg text-black" name="password" type="password" placeholder="Type your password"></input>
+            <input class="block px-3 py-2 border-2 rounded-lg bg-blue-400 ml-2" type="submit" formaction="/create" name="create" value="create">
+        </form>
+    </div>
+</body>
+</html>
